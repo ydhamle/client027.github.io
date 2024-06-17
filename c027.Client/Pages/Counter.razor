@@ -8,6 +8,14 @@
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
+
+@{
+    if(currentCount > 22){
+        <p>Hello <em>ALI</em></p>;
+    }
+}
+
+
 @code {
     private int currentCount = 0;
 
